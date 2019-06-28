@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-30 09:45-0400\n"
 "PO-Revision-Date: 2019-02-10 23:52+0100\n"
-"Last-Translator: kilian jugie <kiki.jugie@gmail.com>\n"
+"Last-Translator: MisterPC <gta.tae9905@gmail.com>\n"
 "Language-Team: French <http://translate.multimc.org/projects/multimc/"
 "multimc5/fr/>\n"
 "Language: fr\n"
@@ -77,7 +77,7 @@ msgstr ""
 #, fuzzy
 msgctxt "AboutDialog|"
 msgid "© 2012-2019 MultiMC Contributors"
-msgstr "© 2012-2018 Contributeurs à MultiMC"
+msgstr "© 2012-2019 Contributeurs à MultiMC"
 
 #: src/application/dialogs/AboutDialog.ui:207
 msgctxt "AboutDialog|"
@@ -88,7 +88,7 @@ msgstr "Crédits"
 #: src/application/dialogs/AboutDialog.ui:230
 msgctxt "AboutDialog|"
 msgid "No Language file loaded."
-msgstr "Traduction FR par un inconnu, GamingPilot2 et Futurjojo#0956."
+msgstr "Aucun language chargé."
 
 #: src/application/dialogs/AboutDialog.ui:241
 msgctxt "AboutDialog|"
@@ -4611,7 +4611,7 @@ msgstr "Avancé"
 #: src/application/pages/instance/VersionPage.ui:209
 msgctxt "VersionPage|"
 msgid "Add a mod into the Minecraft jar file."
-msgstr ""
+msgstr "Ajouter un mod dans le fichier jar de Minecraft"
 
 #: src/application/pages/instance/VersionPage.ui:212
 msgctxt "VersionPage|"
@@ -4642,8 +4642,7 @@ msgstr "Recharger"
 #: src/application/pages/instance/VersionPage.ui:243
 msgctxt "VersionPage|"
 msgid "Download the files needed to launch the instance now."
-msgstr ""
-"Télécharger maintenant les fichiers nécessaires au lancement de l’instance."
+msgstr "Télécharger maintenant les fichiers nécessaires au lancement de l’instance."
 
 #: src/application/pages/instance/VersionPage.ui:246
 msgctxt "VersionPage|"
@@ -4691,13 +4690,13 @@ msgstr "Erreur: "
 #, fuzzy
 msgctxt "VersionPage|"
 msgid "Warning: "
-msgstr "Avertissement : "
+msgstr "Attention : "
 
 #: src/application/pages/instance/VersionPage.cpp:248
 #, fuzzy
 msgctxt "VersionPage|"
 msgid "Select jar mods"
-msgstr "Sélectionnez les Jar Mods"
+msgstr "Sélectionnez les mods jar"
 
 #: src/application/pages/instance/VersionPage.cpp:248
 #, fuzzy
@@ -4960,7 +4959,7 @@ msgstr "&Supprimer"
 #: src/application/pages/instance/WorldListPage.ui:82
 msgctxt "WorldListPage|"
 msgid "Copy Seed"
-msgstr ""
+msgstr "Copier la seed du monde"
 
 #: src/application/pages/instance/WorldListPage.ui:102
 #, fuzzy
@@ -4977,7 +4976,7 @@ msgstr "&Ouvrir le dossier"
 #: src/application/pages/instance/WorldListPage.cpp:112
 msgctxt "WorldListPage|"
 msgid "Are you sure?"
-msgstr "Êtes vous sûr.e ?"
+msgstr "Êtes vous sûr(e) ?"
 
 #: src/application/pages/instance/WorldListPage.cpp:113
 msgctxt "WorldListPage|"
@@ -4995,7 +4994,7 @@ msgstr ""
 #: src/application/pages/instance/WorldListPage.cpp:203
 msgctxt "WorldListPage|"
 msgid "MCEdit failed to start!"
-msgstr "MCEdit n'a pas pu commencer!"
+msgstr "MCEdit n'a pas pu démarrer"
 
 #: src/application/pages/instance/WorldListPage.cpp:204
 msgctxt "WorldListPage|"
@@ -5003,11 +5002,13 @@ msgid ""
 "MCEdit failed to start.\n"
 "It may be necessary to reinstall it."
 msgstr ""
+"MCEdit n'a pas pû démarrer.\n"
+"Il faudrais peut-être le réinstaller."
 
 #: src/application/pages/instance/WorldListPage.cpp:193
 msgctxt "WorldListPage|"
 msgid "No MCEdit found or set up!"
-msgstr ""
+msgstr "MCEdit n'a pas été trouvé!"
 
 #: src/application/pages/instance/WorldListPage.cpp:194
 msgctxt "WorldListPage|"
@@ -5015,22 +5016,24 @@ msgid ""
 "You do not have MCEdit set up or it was moved.\n"
 "You can set it up in the global settings."
 msgstr ""
+"Vous n'avez pas MCEdit n'installé ou son dossier racine à été changé.\n"
+"Vous pouvez l'installer dans les options globales."
 
 #: src/application/pages/instance/WorldListPage.cpp:250
 msgctxt "WorldListPage|"
 msgid "Select a Minecraft world zip"
-msgstr ""
+msgstr "Sélectionnez un monde Minecraft en zip"
 
 #: src/application/pages/instance/WorldListPage.cpp:251
 #, fuzzy
 msgctxt "WorldListPage|"
 msgid "Minecraft World Zip File (*.zip)"
-msgstr "Archive du monde Minecraft (*.zip *.jar)"
+msgstr "Archive du monde Minecraft (*.zip)"
 
 #: src/application/pages/instance/WorldListPage.cpp:272
 msgctxt "WorldListPage|"
 msgid "Copy World"
-msgstr ""
+msgstr "Copier le monde"
 
 #: src/application/pages/instance/WorldListPage.cpp:272
 msgctxt "WorldListPage|"
@@ -5038,6 +5041,8 @@ msgid ""
 "Changing a world while Minecraft is running is potentially unsafe.\n"
 "Do you wish to proceed?"
 msgstr ""
+"Changer de monde quand Minecraft est en cours d'éxecution n'est pas conseillé.\n"
+"Voulez-vous vraiment faire ceci?"
 
 #: src/application/pages/instance/WorldListPage.cpp:296
 #: src/application/pages/instance/WorldListPage.cpp:319
@@ -5055,17 +5060,17 @@ msgstr "Entrez un nouveau nom de l'instance."
 #, fuzzy
 msgctxt "WorldListPage|"
 msgid "Enter a new world name."
-msgstr "Entrez un nouveau nom du groupe."
+msgstr "Entrez un nouveau nom du monde."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:114
 msgctxt "YggdrasilTask|"
 msgid "Authentication operation timed out."
-msgstr "L'opération d'authentification a expiré."
+msgstr "L'authentification a expiré."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:117
 msgctxt "YggdrasilTask|"
 msgid "Authentication operation cancelled."
-msgstr "L'opération d'authentification a été annulée."
+msgstr "L'authentification a été annulée."
 
 #: src/api/logic/minecraft/auth/YggdrasilTask.cpp:122
 msgctxt "YggdrasilTask|"
